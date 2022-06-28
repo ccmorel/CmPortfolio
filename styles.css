@@ -1,0 +1,224 @@
+*
+
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 2
+    color normal var(--body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: var(--dark)
+}
+
+a {
+    color: var(--body);
+    text-decoration: none;
+    transition: all 0.45 ease;
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--dark);
+}
+
+img { 
+    width: 100%;
+}
+
+section {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.navbar-brand {
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+.navbar .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#hero {
+    background-image: url('images/me2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-position: right center;
+}
+
+#hero h1,
+#hero p {
+    color: var(--black);
+}
+
+#hero h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#hero p {
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.btn {
+    padding: 24px 54px;
+    border-width: 2px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.hr-line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--dark);
+    display: inline-block;
+}
+
+.intro h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.intro p {
+    width: 500px;
+}
+
+#services {
+    background-image: url(./images/pexels-scott-webb-3255761.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        max-height: fit-content;
+        background-position: center;
+}
+
+.service2 {
+    display: flex;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [auto];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+#portfolio {
+    background-image: url(./images/pexels-scott-webb-3255761.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        max-height: fit-content;
+        background-position: center;
+}
+
+.port2 {
+    display: flex;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gh {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+      
+.video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 50;
+        overflow: hidden;
+    }
+    
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+        position: center;
+        top: 0;
+        left: 60;
+        width: 60%;
+        height: 100%;
+    }
+.video-wrapper {
+        width: 640px;
+        float:center;
+        margin-left:auto;
+        margin-right:auto;
+        max-width: 90%;
+    }
+    
+    * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      a:link {
+        color: rgb(103, 105, 93);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: rgb(29, 44, 39);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      #contact {
+        background-image: url(./images/pexels-todd-trapani-2276928.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        max-height: fit-content;
+        background-position: center;
+      }
+      
+      .contactmeimg {
+        opacity: 0.7;
+      }

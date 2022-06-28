@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--BOOTSTRAP & Other CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--script-->
+    <script src="js/script.js"></script>
+</head>
+<!--BODY-->
+<body>
+<!--Nav-->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><b>CM Portfolio</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navb1 ms-auto">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" a href="#services"><b>Services</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" a href="#portfolio"><b>Portfolio</b></a>
+          <li class="nav-item">
+            <a class="nav-link" a href="#contact"><b>Contact</b></a>
+          </li>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+<!--hero / intro-->
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="h1"><c></c><span class="auto-type"></span></h1>
+        <a href="https://github.com/ccmorel" class="btn btn-outline-dark" data-aos="fade-right" data-aos-delay="300">GitHub</a>
+      </div>
+      <div class="row">
+      <div class="col-lg-6">
+        <h1 class="h1"><c></c><span class="auto-type"></span></h1>
+        <a href="https://www.linkedin.com/in/christopher-morel-03283b243/" class="btn btn-outline-dark" data-aos="fade-left" data-aos-delay="500">LinkedIn</a>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-6">
+        <h1 class="h1"><c></c><span class="auto-type"></span></h1>
+        <a href="mailto:faceonemusic@gmail.com" class="btn btn-outline-dark" data-aos="fade-right" data-aos-delay="700">Email Me</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- auto type sourced from https://github.com/mattboldt/typed.js/-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["I am Christopher Morel.", "I am 34 Years old.", "I am a professional with 18 years of work experience in Data, Analytics, Tech, Business Systems, and Finance." ,"I live in Queens, New York." , "I am a student via MITxPRO.","I am a Web Developer.", "I am a Front End Developer.", "I am a Back End Developer.", "I am a Full Stack Developer.", "I am a Music Producer.", "I am a Poet.", "Welcome to my Website!", "Check out my work below!"],
+          typeSpeed: 40,
+          backSpeed: 25,
+          loop: true
+        })
+    </script>
+    <!-- /video -->
+<div class="video-wrapper">
+	<div class="video-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/q7f9N4vUYko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+</section>
+
+<!--#Services-->
+<section id="services">
+    <div class="container">
+        <div class="row">
+          <div class="col=12" data-aos="fade-down">
+              <div class="intro text-center">
+                  <h1 class="display-4">My Services</h1>
+                  <!--cards-->
+                  <div class="row gy-4">
+                    <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="200">
+                        <div class="service2">  
+                            <div>
+                                <h4>HTML</h4>
+                                <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on Web pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="300">
+                        <div class="service2">
+                            <div>
+                                <h4>CSS</h4>
+                                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="500">
+                        <div class="service2">
+                            <div>
+                                <h4>JAVASCRIPT</h4>
+                                <p>JavaScript is a programming language that allows you to implement complex features on web pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="700">
+                        <div class="service2">
+                            <div>
+                                <h4>BOOTSTRAP</h4>
+                                <p>Bootstrap is a potent front-end framework used to create modern websites and web apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                  <h3 class="ms-auto" data-aos="fade-left" data-aos-delay="700">Full Stack Development with M.E.R.N</p>
+                    <h5 class="ms-auto" data-aos="fade-right" data-aos-delay="700">MongoDB - Express - ReactJS - Node.js</p>
+                    <img src="images/mern.jpg" data-aos="fade-down" data-aos-delay="800" style="width:1000px;height:200px;">
+                  </div>
+              </div>
+                  </div>
+              </div>
+          </div>  
+              </div>
+              </section>
+          </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--#Portfolio-->
+<!--Pm image sourced from pngroyale.com-->
+<!--the rest of the icons from iconfinder.com-->
+<section id="portfolio">
+  <div class="container">
+      <div class="row">
+        <div class="col=12" data-aos="fade-down">
+            <div class="intro text-center">
+                <div class="hr-line"></div>
+                <h1 class="display-4">My Portfolio</h1>
+                <!--cards with an automated fade-->
+                <div class="row gy-4">
+                  <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="200">
+                      <div class="port2">  
+                          <div>
+                            <img src="https://pngroyale.com/wp-content/uploads/2022/02/pacman-html-canvas-.png" alt="Pacman" style="width:50px;height:50px;"> 
+                              <h4><a href="https://github.com/ccmorel/PacMan-Exercise" target="_blank">Pacman Exercise Repo</a></h4>
+                              <h4><a href="https://ccmorel.github.io/PacMan-Exercise/" target="_blank">Pacman Exercise Live Demo</a></h4>
+                              <p>This is a pacman game. Click Start then click add a pacman. The more you click start the faster it goes. The more you click Add Pacman the more Pacmen there will be.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="200">
+                      <div class="port2">
+                          <div>
+                            <img src="https://cdn1.iconfinder.com/data/icons/search-engine-optimisation-seo/44/seo_icons-01-512.png" alt="Eyes" style="width:50px;height:50px;"> 
+                              <h5><a href="https://github.com/ccmorel/Eye-Exercise" target="_blank">Eye Tracker Exercise Repo</a></h5>
+                              <h5><a href="https://ccmorel.github.io/Eye-Exercise/" target="_blank">Eye Tracker Exercise Live Demo</a></h5>
+                              <p>A mouse tracking web app that uses eyes to track your mouse movement via the eyes. Move the mouse around to see the eyes animate and move.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="400">
+                      <div class="port2">
+                          <div>
+                            <img src="https://cdn3.iconfinder.com/data/icons/transportation-vol-1-18/512/trolley_bus__transport_vehical-256.png" alt="Bus" style="width:50px;height:50px;">
+                              <h5><a href="https://github.com/ccmorel/BusTracker" target="_blank">Real Time Bus Tracker Exercise Repo</a></h5>
+                              <h5><a href="https://ccmorel.github.io/BusTracker/" target="_blank">Real Time Bus Tracker Exercise Live</a></h5>
+                              <p>A bus tracking web app, that tracks stops in Boston. Click show stops and the map marker will animate it's route and relevant stops. </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="400">
+                      <div class="port2">
+                          <div>
+                            <img src="https://cdn2.iconfinder.com/data/icons/valentine-s-day-wedding-colored/128/42_jewelry-ring-engagement-256.png" alt="Eyes" style="width:50px;height:50px;">
+                              <h4><a href="https://www.alrue.com" target="_blank">Alrue DoAll</a></h4>
+                              <p>Click the link above to visit a webpage I built for the company I work for. This website was built using Wordpress & HTML.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>  
+            </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+<!--Contact Me-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-down" data-aos-delay="200">
+              <div class= "intro text-center">
+                <h1 class="display-4">Contact Me</h1>
+                <div class="contactmeimg">
+                <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/45857451_10157015601799824_7579996512931807232_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=p7xGNLaGFtsAX-pHeBr&_nc_ht=scontent-lga3-2.xx&oh=00_AT-kdnwIhshMdpzS_z29pqBR7dpkFvpAoejcP1PeuZ0SUw&oe=62E11FEC" alt="" style="width:200px;height:200px;">
+                </div>
+                <p class="mx-auto"><b>Christopher Morel</b></p>
+                <p class="mx-auto"><b>Queens, New York</b></p>
+                <p class="mx-auto"><b>802-777-0510</b></p>
+                <p class="mx-auto"><b><a href="mailto:faceonemusic@gmail.com">Faceonemusic@gmail.com</a></b></p>
+                
+             
+                <!--cards with an automated fade-->
+                <div class="row gy-4">
+                  <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="200">
+                      <div class="port2">  
+                          <div>
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-512.png" alt="LinkedIn" style="width:50px;height:50px;"> 
+                              <h5><a href="https://www.linkedin.com/in/christopher-morel-03283b243/" target="_blank">LinkedIn</a>
+                              <p>Click the link above to contact me on LinkedIn</p></h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="200">
+                      <div class="port2">
+                          <div>
+                            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-256.png" alt="GitHub" style="width:50px;height:50px;"> 
+                              <h5><a href="https://github.com/ccmorel" target="_blank">GitHub</a>
+                              <p>Click the link above to contact me via Github</p></h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-left" data-aos-delay="400">
+                      <div class="port2">
+                          <div>
+                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-512.png" alt="Instagram" style="width:50px;height:50px;">
+                              <h5><a href="https://www.instagram.com/christophercarlosmorel/" target="_blank">Instagram</a>
+                              <p>Click the link above to contact me via Instagram</p></h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="400">
+                    <div class="port2">
+                        <div>
+                          <img src="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-512.png" alt="Gmail" style="width:50px;height:50px;">
+                            <h5><a href="mailto:faceonemusic@gmail.com">Send Email</a>
+                            <p>Click the link above to send me an email.</p></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+             </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<!--Javascript-->
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
